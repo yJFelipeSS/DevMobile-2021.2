@@ -1,5 +1,7 @@
 # Trabalho Prático Unidade 1
 Imagens das telas criadas neste trabalho!
+## Video explicativo
+[![Watch the video](https://i.imgur.com/vKb2F1B.png)](https://github.com/yJFelipeSS/DevMobile-2021.2/blob/main/trabalho001/Video%20explicativo.mov)
 
 ## Tela 001 (Tela com informações de todos emails recebidos. [Aquisição de dados via API]).
 
