@@ -1,7 +1,7 @@
 # Trabalho Prático Unidade 1
 Imagens das telas criadas neste trabalho!
 ## Video explicativo
-  [![Clique aqui para ser redirecionado!]](https://youtu.be/mefGli7lCLw)
+  [Clique aqui para ser redirecionado!](https://youtu.be/mefGli7lCLw)
 ## Tela 001 (Tela com informações de todos emails recebidos. [Aquisição de dados via API]).
 
 <p align="center">
