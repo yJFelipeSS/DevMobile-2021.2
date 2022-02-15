@@ -44,8 +44,7 @@ export default function Email({ route }) {
             />
             <WebView
                 style={styles.emailBody}
-                // O meta é utilizado para deixar o texto num tamanho "aceitável"
-                source={{ html: '<meta name="viewport" content="width=device-width, initial-scale=1">' + info.body }}
+                source={{ html: '<meta name="viewport" content="width=device-width, maximum-scale=1">' + info.body }}
                 scrollEnabled={false}
             />
         </View>

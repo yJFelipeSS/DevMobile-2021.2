@@ -1,4 +1,4 @@
-import { StatusBar } from 'expo-status-bar';
+ import { StatusBar } from 'expo-status-bar';
 import React, { useEffect, useState } from 'react';
 import { FlatList, Image, StyleSheet, Text, TouchableOpacity, View } from 'react-native';
 import Icon from 'react-native-vector-icons/AntDesign';
@@ -83,7 +83,6 @@ const styles = StyleSheet.create({
 
     email: {
         flexDirection: 'row',
-        alignItems: 'center',
         justifyContent: 'center',
 
         height: 90,
@@ -100,6 +99,7 @@ const styles = StyleSheet.create({
 
     emailContent: {
         flex: 1,
+        alignItems: 'center',
     },
 
     emailInfo: {
@@ -123,6 +123,7 @@ const styles = StyleSheet.create({
         fontSize: 14,
     },
     emailTittle: {
+        flex: 1,
         fontSize: 14,
     },
     emailFavorite: {
