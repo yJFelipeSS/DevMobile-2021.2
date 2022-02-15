@@ -17,6 +17,3 @@ Imagens das telas criadas neste trabalho!
 <p align="center">
   <img src="https://raw.githubusercontent.com/yJFelipeSS/DevMobile-2021.2/main/trabalho002/Prints%20da%20tela!/IMG-8540.PNG" width="40%" height="40%">
 </p>
-<p align="center">
-  <img src="https://raw.githubusercontent.com/yJFelipeSS/DevMobile-2021.2/main/trabalho002/Prints%20da%20tela!/IMG-8541.PNG" width="40%" height="40%">
-</p>
