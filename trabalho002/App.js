@@ -1,6 +1,18 @@
 import { StatusBar } from 'expo-status-bar';
 import React, { useEffect, useState } from "react";
-import { Dimensions, StyleSheet, TouchableOpacity, Text, TextInput, KeyboardAvoidingView, Modal, View, NativeModules } from 'react-native';
+import {
+  Dimensions,
+  StyleSheet,
+  TouchableOpacity,
+  Text,
+  TextInput,
+  KeyboardAvoidingView,
+  Modal,
+  View,
+  NativeModules,
+  Alert
+} from 'react-native';
+
 import MapView, { Marker } from 'react-native-maps';
 
 import Icon from 'react-native-vector-icons/Ionicons';
@@ -69,7 +81,20 @@ export default function App() {
         body: JSON.stringify(json)
       }
 
-      const response = await fetch('https://mobile.ect.ufrn.br:3003/markers', headerOptions);
+      const response = await fetch('https://mobile.ect.ufrn.br:3003/markers', headerOptions)
+        .then(response => {
+          if (response.status == 200) {
+            Alert.alert(
+              "Parabéns!!!",
+              "Você cadastrou um novo marcador com sucesso!"
+            )
+          } else {
+            Alert.alert(
+              "ERRO",
+              "Problemas durante o cadastro de um novo marcador, contate um desenvolvedor!"
+            )
+          }
+        });
       loadCurrentMarkers();
     }
     changeSettingNewMarker(false);
